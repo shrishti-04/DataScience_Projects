@@ -65,3 +65,25 @@ Some of the key findings from the analysis include:
 <li>Correlations between different banking institutions and market indices.</li>
 <li>Insights for making informed investment decisions based on historical data.</li></ul>
 </p>
+
+<H1>Movie Recommendation System</H1>
+
+<p>This project implements a collaborative filtering-based movie recommendation system using the MovieLens dataset. The recommendation engine uses user ratings to predict and suggest movies to users based on their preferences.</p>
+
+<h3>Key Features</h3>
+
+<p>
+<ul>
+<li><b>Data Loading and Preprocessing:<b> The dataset containing user ratings for movies is loaded and cleaned. The project also includes mapping movie IDs to their corresponding titles.</li>
+<li><b>Collaborative Filtering:<b> The system uses user-based collaborative filtering to compute similarities between users and recommend movies they haven't rated.</li>
+<li><b>Matrix Factorization:<b> The recommendation is built using matrix factorization techniques to improve prediction accuracy.</li></ul>
+</p>
+
+<h3>Technologies Used</h3>
+
+<p>
+<ul>
+<li><b>Python:<b> The project is implemented in Python using libraries like pandas and numpy for data manipulation.</li>
+<li><b>Pandas:<b> Used for reading and processing the dataset.//</li>
+<li><b>MovieLens Dataset:<b> The system works with user-movie rating data to build recommendations.</li></ul>
+</p>
