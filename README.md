@@ -68,6 +68,30 @@ Some of the key findings from the analysis include:
 
 <H1>Movie Recommendation System</H1>
 
+<H3>Recommendation System:</h3>
+<p>A Recommendation System is an algorithm designed to suggest relevant items to users based on their preferences, behaviors, or interactions. <p>
+
+<h4>Types of recommendation systems:</h4>
+<ol>
+<li>Collaborative Filtering:
+<p>
+<ul>
+<li><b>User-based:<b> Recommends items to a user by finding similar users and suggesting items they liked.
+<li><b>Item-based:<b> Recommends items by finding similar items based on user interactions.</li>
+<li>Example: Collaborative filtering would recommend movies based on the ratings and preferences of similar users.</li>
+</ul>
+</p>
+</li>
+<li>Content-Based Filtering:
+<p>
+<ul>
+<li>Recommends items by analyzing the features of the items and comparing them to a user’s previous interactions or preferences.</li>
+<li>Content-based filtering would recommend movies similar to those a user has liked, based on features such as genre, director, or cast.</li>
+</ul>
+</p>
+</li>
+</ol>
+
 <p>This project implements a collaborative filtering-based movie recommendation system using the MovieLens dataset. The recommendation engine uses user ratings to predict and suggest movies to users based on their preferences.</p>
 
 <h3>Key Features</h3>
