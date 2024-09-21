@@ -73,20 +73,20 @@ Some of the key findings from the analysis include:
 
 <h4>Types of recommendation systems:</h4>
 <ol>
-<li>Collaborative Filtering:
+<li><b>Collaborative Filtering:</b>
 <p>
 <ul>
-<li><b>User-based:<b> Recommends items to a user by finding similar users and suggesting items they liked.
-<li><b>Item-based:<b> Recommends items by finding similar items based on user interactions.</li>
+<li><b>User-based:</b> Recommends items to a user by finding similar users and suggesting items they liked.
+<li><b>Item-based:</b> Recommends items by finding similar items based on user interactions.</li>
 <li>Example: Collaborative filtering would recommend movies based on the ratings and preferences of similar users.</li>
 </ul>
 </p>
 </li>
-<li>Content-Based Filtering:
+<li><b>Content-Based Filtering:</b>
 <p>
 <ul>
 <li>Recommends items by analyzing the features of the items and comparing them to a user’s previous interactions or preferences.</li>
-<li>Content-based filtering would recommend movies similar to those a user has liked, based on features such as genre, director, or cast.</li>
+<li>Example: Content-based filtering would recommend movies similar to those a user has liked, based on features such as genre, director, or cast.</li>
 </ul>
 </p>
 </li>
@@ -98,16 +98,16 @@ Some of the key findings from the analysis include:
 
 <p>
 <ul>
-<li><b>Data Loading and Preprocessing:<b> The dataset containing user ratings for movies is loaded and cleaned. The project also includes mapping movie IDs to their corresponding titles.</li>
-<li><b>Collaborative Filtering:<b> The system uses user-based collaborative filtering to compute similarities between users and recommend movies they haven't rated.</li>
-<li><b>Matrix Factorization:<b> The recommendation is built using matrix factorization techniques to improve prediction accuracy.</li></ul>
+<li><b>Data Loading and Preprocessing:</b> The dataset containing user ratings for movies is loaded and cleaned. The project also includes mapping movie IDs to their corresponding titles.</li>
+<li><b>Collaborative Filtering:</b> The system uses user-based collaborative filtering to compute similarities between users and recommend movies they haven't rated.</li>
+<li><b>Matrix Factorization:</b> The recommendation is built using matrix factorization techniques to improve prediction accuracy.</li></ul>
 </p>
 
 <h3>Technologies Used</h3>
 
 <p>
 <ul>
-<li><b>Python:<b> The project is implemented in Python using libraries like pandas and numpy for data manipulation.</li>
-<li><b>Pandas:<b> Used for reading and processing the dataset.//</li>
-<li><b>MovieLens Dataset:<b> The system works with user-movie rating data to build recommendations.</li></ul>
+<li><b>Python:</b> The project is implemented in Python using libraries like pandas and numpy for data manipulation.</li>
+<li><b>Pandas:</b> Used for reading and processing the dataset.//</li>
+<li><b>MovieLens Dataset:</b> The system works with user-movie rating data to build recommendations.</li></ul>
 </p>
